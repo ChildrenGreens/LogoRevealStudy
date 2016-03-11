@@ -14,6 +14,9 @@
 		6DF4F62E1C924D1500D6DA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF4F62C1C924D1500D6DA29 /* LaunchScreen.storyboard */; };
 		6DF4F6391C924D1500D6DA29 /* LogoRevealStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4F6381C924D1500D6DA29 /* LogoRevealStudyTests.swift */; };
 		6DF4F6441C924D1500D6DA29 /* LogoRevealStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4F6431C924D1500D6DA29 /* LogoRevealStudyUITests.swift */; };
+		6DF4F6521C924E3400D6DA29 /* SwiftLogoLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4F6511C924E3400D6DA29 /* SwiftLogoLayer.swift */; };
+		6DF4F6561C92500400D6DA29 /* RevealAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4F6551C92500400D6DA29 /* RevealAnimator.swift */; };
+		6DF4F6581C92583C00D6DA29 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4F6571C92583C00D6DA29 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		6DF4F63F1C924D1500D6DA29 /* LogoRevealStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogoRevealStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF4F6431C924D1500D6DA29 /* LogoRevealStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoRevealStudyUITests.swift; sourceTree = "<group>"; };
 		6DF4F6451C924D1500D6DA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF4F6511C924E3400D6DA29 /* SwiftLogoLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLogoLayer.swift; sourceTree = "<group>"; };
+		6DF4F6551C92500400D6DA29 /* RevealAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealAnimator.swift; sourceTree = "<group>"; };
+		6DF4F6571C92583C00D6DA29 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				6DF4F6231C924D1500D6DA29 /* AppDelegate.swift */,
+				6DF4F6511C924E3400D6DA29 /* SwiftLogoLayer.swift */,
 				6DF4F6251C924D1500D6DA29 /* ViewController.swift */,
+				6DF4F6571C92583C00D6DA29 /* DetailViewController.swift */,
+				6DF4F6551C92500400D6DA29 /* RevealAnimator.swift */,
 				6DF4F6271C924D1500D6DA29 /* Main.storyboard */,
 				6DF4F62A1C924D1500D6DA29 /* Assets.xcassets */,
 				6DF4F62C1C924D1500D6DA29 /* LaunchScreen.storyboard */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF4F6521C924E3400D6DA29 /* SwiftLogoLayer.swift in Sources */,
+				6DF4F6561C92500400D6DA29 /* RevealAnimator.swift in Sources */,
+				6DF4F6581C92583C00D6DA29 /* DetailViewController.swift in Sources */,
 				6DF4F6261C924D1500D6DA29 /* ViewController.swift in Sources */,
 				6DF4F6241C924D1500D6DA29 /* AppDelegate.swift in Sources */,
 			);
